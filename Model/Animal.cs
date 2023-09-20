@@ -34,7 +34,8 @@
             return _species!;
         }
 
-        public string GetFurType()
+        // Allowing override to prevent chicken from having fur
+        public virtual string GetFurType()
         {
             return _furType!;
         }
