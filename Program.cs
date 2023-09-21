@@ -1,4 +1,5 @@
 ﻿using Station.Model;
+using System.Diagnostics;
 
 namespace Station
 {
@@ -10,7 +11,7 @@ namespace Station
             //Animal animal = new Animal();
 
             // Creating a dog and putting it in a station instance
-            Animal dog = new Dog("doggy", 2, "Short coat");
+            Animal dog = new Dog("Doggy", 2, "Short coat", "Male");
             Model.Station station = new Model.Station();
 
             // Adding dog to station
@@ -26,7 +27,7 @@ namespace Station
             // Getting animals that have been in station (dog)
             Console.WriteLine(station.GetAnimalsBeenAtStation());
             // Dog info
-            Console.WriteLine($"name: {dog.GetName()}, age: {dog.GetAge()}, species: {dog.GetSpecies()}, fur: {dog.GetFurType()}");
+            Console.WriteLine($"name: {dog.GetName()}, age: {dog.GetAge()}, sex: {dog.GetSex()}, species: {dog.GetSpecies()}, fur: {dog.GetFurType()}");
         }
     }
 }
