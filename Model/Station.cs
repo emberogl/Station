@@ -4,7 +4,7 @@
     /// Station class that logs all animals that have entered station,
     /// and animals currently in station
     /// </summary>
-    internal class Station
+    public class Station
     {
         private List<Animal> _beenAtStation = new List<Animal>();
         private List<Animal> _atStation = new List<Animal>();

@@ -1,6 +1,6 @@
 ﻿namespace Station.Model
 {
-    internal class Dog : Animal
+    public class Dog : Animal
     {
         protected override string _species { get; } = "Canis familiaris";
         protected override string? _reproductionType { get; } = "Viviparous";

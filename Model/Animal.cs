@@ -3,7 +3,7 @@
     /// <summary>
     /// Abstract animal class that defines default "animal" properties
     /// </summary>
-    abstract class Animal
+    public abstract class Animal
     {
         protected string _name;
         protected int _age;
